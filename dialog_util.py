@@ -13,9 +13,9 @@ filename = 'myfile.wav'
 import pickle
 vaccinations = pickle.load( open( "C:/Users/elisa/Seminare_Python/S_dialogsystem/vaccination_data.pkl", "rb" ) )
 
-phrases = {'hello':'Willkommen bei der Corona Impfauskunft. Fragen Sie!', 
-    'continue':'Weiter!', 
-    'goodbye':'Vielen Dank für Ihren Besuch!', 
+phrases = {'hello':'Guten Tag! Sie können mir Fragen zu den Impfungen in Deutschland stellen.', 
+    'continue':'Sprechen Sie weiter!', 
+    'goodbye':'Danke, dass Sie die Impfauskunft genutzt haben!  Auf Wiedersehen!', 
     'done':'fertig', 
     'done':'tschüss'}
 
@@ -33,7 +33,7 @@ state_names = {'SH':'Schleswig-Hostein', 'HH':'Hamburg', 'BE':'Berlin', 'BY':'Ba
             'SL':'Saarland', 'BB':'Brandenburg', 'MV':'Mecklenburg Vorpommern', 
             'SN': 'Sachsen', 'ST':'Sachsen-Anhalt', 'TH':'Thüringen', 'DE':'Deutschland'}
 vaccines_d = {'biontech':'biontech', 'biontec':'biontech', 
-              'moderna':'moderna', 
+              'moderna':'moderna', 'moderner':'moderna',
               'janssen':'janssen', 'jansen':'janssen',
               'delta':'delta',
               'astraZeneca':'astraZeneca', 'astra':'astraZeneca', 'zeneca':'astraZeneca'}
