@@ -1,7 +1,7 @@
 # S_dialogsystem
 Programming a spoken dialog system
 
-You can find [my dialog here](Corona_Dialog_mit_Sprache_und_Emotion_Seyfried.ipynb)
+You can find [my dialog here](Corona_Dialog_mit_Sprache_und_Emotion_Abgabe-aktuell.ipynb)
 
 The uploaded spoken dialog system can interact vie speech with the user and also recognizes the mood the user is in. When implementing this systen, I learned how a dialog system is constituted and how the different components are connected to each other. Our dialog system consists of the modules dialogmanager, input, output, semantic parsing and data and emotional analyses. About Each of the parts I will explain briefly what I learned about them in this seminar.
 
