@@ -1,7 +1,7 @@
 # S_dialogsystem
 Programming a spoken dialog system
 
-You can find [my dialog here](Corona_Dialog_mit_Sprache_und_Emotion_Abgabe-aktuell.ipynb)
+You can find [my dialog here](Corona_Dialog_mit_Sprache_Eliza_und_Emotion_Seyfried.ipynb)
 
 The uploaded spoken dialog system can interact vie speech with the user and also recognizes the mood the user is in. When implementing this systen, I learned how a dialog system is constituted and how the different components are connected to each other. Our dialog system consists of the modules dialogmanager, input, output, semantic parsing and data and emotional analyses. About Each of the parts I will explain briefly what I learned about them in this seminar.
 
@@ -15,4 +15,4 @@ In order to be able to give out the information the user asked for, the dialog s
 
 Another neccessary module is the text-to-speech. It is the reverse operation on the speech recognition and translates machine language into natural spoken language. in this course I used pytts from espeak. The voice, the language and the speech rate can be chosen.
 
-Except understanding the code programmed in the course, I also learned how to implement my own code in to the dialog system. 
+Except understanding and executing the code programmed in the course, I also learned how to implement own code. Since the uploaded script only either takes the RKI api about vaccinations as data input or connects to the deutsch.txt to give out the eliza-responses, it is not possible to ask other questions about corona. This is why I worked on a script, that takes the data of the website https://www.deutsche-familienversicherung.de/krankenhauszusatzversicherung/ratgeber/artikel/coronavirus-symptome-verlauf-behandlung/ and generates an answer to questions about the Coronavirus, like symptoms and how contagious it is. You can find the script  [here](Corona_Information.ipynb). The script searches the input and returns sections from the article on the website that are similar to the strings in the input. It would be possible to include this script into the dialog instead of eliza, if the greetings are left out. But the version included here functions as independent script.
